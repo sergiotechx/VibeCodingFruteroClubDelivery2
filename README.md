@@ -34,7 +34,12 @@ Sigue estos pasos para ejecutar el juego en tu máquina local:
     ```bash
     npm install
     ```
-3.  **Iniciar el servidor de desarrollo:**
+3.  **Configurar Variables de Entorno:**
+    Crea un archivo `.env` en la raíz del proyecto y agrega tu API Key de OpenAI:
+    ```env
+    VITE_OPENAI_KEY=tu_api_key_aqui
+    ```
+4.  **Iniciar el servidor de desarrollo:**
     ```bash
     npm run dev
     ```
@@ -46,6 +51,7 @@ Sigue estos pasos para ejecutar el juego en tu máquina local:
 - **Contador de Evolución:** Un timer visual que te indica cuánto falta para la siguiente etapa (¡solo avanza si tu mascota está feliz!).
 - **Persistencia de Datos:** El juego guarda tu progreso automáticamente en el navegador.
 - **Modo Oscuro/Retro:** Diseño visualmente atractivo y nostálgico.
+- **Chat con IA:** ¡Habla con tu mascota! Integración con **OpenAI** para tener conversaciones únicas basadas en la personalidad y estado de tu ELEMON.
 
 ---
-*Desarrollado como parte del Delivery 1 para VibeCode Bootcamp.*
+*Desarrollado como parte del Delivery 2 para VibeCode Bootcamp.*
